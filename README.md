@@ -6,6 +6,7 @@ instalação dos modulos:
 ```
 pip install pygraphviz
 pip install pydot
+pip install django-extensions
 ```
 
 
