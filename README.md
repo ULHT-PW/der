@@ -1,5 +1,7 @@
 # Visualização de Diagrama Entidade Relação (DER)
 
+descarregar (graphviz)[https://graphviz.org/download/]
+
 instalação dos modulos:
 ```
 pip install pygraphviz
