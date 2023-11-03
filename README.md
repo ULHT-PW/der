@@ -14,7 +14,7 @@ no ficheiro settings.py:
 
 ```Python
 # settings.py
-INSTALLED_APPS += ['django-extensions’]
+INSTALLED_APPS += ['django-extensions']
 
 GRAPH_MODELS = {
   'all_applications': True,
