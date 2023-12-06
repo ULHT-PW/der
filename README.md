@@ -22,8 +22,8 @@ GRAPH_MODELS = {
 }
 ```
 
-para gerar uma imagem do DER:
-```Python
-python manage.py graph_models -a -o myapp_models.dot
-dot -Tpng myapp_models.dot -o output.png
+para gerar uma imagem do DER deve executar os seguintes comandos na consola:
+```bash
+> python manage.py graph_models -a -o myapp_models.dot
+> dot -Tpng myapp_models.dot -o output.png
 ```
