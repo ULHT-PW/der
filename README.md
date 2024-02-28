@@ -29,8 +29,15 @@ para gerar uma imagem do DER deve executar os seguintes comandos na consola:
 ```
 
 
+
 # Exemplos
 
+disponíveis em:
+* projeto: https://modelsdj.pythonanywhere.com/
+* username: admin
+* pwd: admin
+
+### Família-Morada (1:1)
 ```python
 
 class Familia(models.Model):
@@ -50,6 +57,7 @@ class Morada(models.Model):
 ```
 <img width="180" alt="familia-morada" src="https://github.com/ULHT-PW/diagrama-entidade-relacao/assets/42048382/ce3645b9-aecb-4857-bd94-96a23f996dc0">
 
+### Aluno-Disciplina (N:N)
 ```python
 class Aluno(models.Model):
     nome = models.CharField(max_length=100)
@@ -68,6 +76,7 @@ class Disciplina(models.Model):
 
 <img width="150" alt="disciplina-aluno" src="https://github.com/ULHT-PW/diagrama-entidade-relacao/assets/42048382/17f66397-7b55-4092-990d-ca943bbf9bd8">
 
+### Escritor-Livro (1:N)
 ```python
 class Escritor(models.Model):
     nome = models.CharField(max_length=100)
